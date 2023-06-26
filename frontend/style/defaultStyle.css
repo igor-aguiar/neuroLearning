@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --primary-color: #1D2F6F;
+    --secondary-color: #8390FA;
+    --tertiary-color: #FAC748;
+    --highlight-color: #F9E9EC;
+    --highlight-color-second: #F88DAD;
+    --common-font: 'Signika'
+}
+
+body {
+    margin: auto;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    font-family: var(--common-font);
+}
+.index-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.header-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    background-color: #101e50;
+}
+
+.index-logo{
+    height: 150%;
+    width: auto;
+}
+
+.studentInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.student-profile-picture{
+    border-radius: 50%;
+    height: 30vh;
+    width: 20vw;
+}
+
+.menu-actions{
+    width: 40%;
+    gap: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.link-studentMenu{
+    width: 100vw;
+    text-align: center;
+}
+
+.btn-index{
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-shadow: 1px 1px 1px #000;
+    padding: 1em 3em;
+    border:solid 1px var(--highlight-color-second);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
